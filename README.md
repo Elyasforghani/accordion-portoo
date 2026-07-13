@@ -1,7 +1,7 @@
 # Modern Glassmorphic Accordion Portfolio
 
 A sleek, interactive, and high-performance interactive FAQ/About-Me single-page portfolio built with modern web standards. This project features an immersive glassmorphic design system accented by dynamic custom cursor tracking, animated backdrop-filter ambient orbs, fluid CSS micro-interactions, and full accessibility implementation.
-<img width="1878" height="911" alt="Image" src="https://github.com/user-attachments/assets/97d6fcf9-2d88-4bea-a074-8c2bd501e5f6" />
+<img width="1878" height="911" alt="Image" src="https://github.com/user-attachments/assets/4c460dc1-0bbc-4417-9f67-1549409de0b6" />
 <a href="https://elyasforghani.github.io/accordion-portoo/">Live Demo</a>
 
 ## ✨ Features
