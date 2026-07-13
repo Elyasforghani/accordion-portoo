@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Elyas Forghani</title>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800;900&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link rel="stylesheet" href="assets/stylesheet/master.css">
+</head>
+<body>
+
+  <div class="bg-scene">
+    <div class="bg-orb bg-orb--1"></div>
+    <div class="bg-orb bg-orb--2"></div>
+    <div class="bg-orb bg-orb--3"></div>
+    <div class="bg-orb bg-orb--4"></div>
+  </div>
+  <div class="bg-noise"></div>
+  <div class="bg-grid"></div>
+  <div class="cursor-glow" id="cursorGlow"></div>
+
+  <div class="page-wrapper">
+
+    <main>
+      <header class="page-header">
+        <div class="page-header__badge">
+          <i class="fa-solid fa-terminal"></i>
+          About Me
+        </div>
+        <h1 class="page-header__title">Elyas Forghani</h1>
+        <p class="page-header__sub">Developer, builder, and open-source contributor. Here's everything people usually ask about what I do and how I work.</p>
+      </header>
+
+      <div class="accordion" role="list">
+
+        <!-- 1 -->
+        <div class="accordion-item" role="listitem">
+          <button class="accordion-header" aria-expanded="false">
+            <div class="accordion-header__icon"><i class="fa-solid fa-user"></i></div>
+            <div class="accordion-header__text">
+              <div class="accordion-header__title">Who are you and what do you do?</div>
+              <div class="accordion-header__meta">Background &amp; overview</div>
+            </div>
+            <div class="accordion-header__chevron"><i class="fa-solid fa-chevron-down"></i></div>
+          </button>
+          <div class="accordion-body">
+            <div class="accordion-divider"></div>
+            <div class="accordion-body__inner">
+              <p class="accordion-body__text">
+                I'm <strong>Elyas Forghani</strong>, a software developer focused on building clean, functional applications. I spend most of my time writing code, exploring new technologies, and contributing to open-source projects on <strong>GitHub</strong>. I believe in learning by building — most of what I know comes from hands-on projects rather than tutorials alone.
+              </p>
+              <div class="accordion-body__tags">
+                <span class="accordion-body__tag">Self-Taught</span>
+           
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- 2 -->
+        <div class="accordion-item" role="listitem">
+          <button class="accordion-header" aria-expanded="false">
+            <div class="accordion-header__icon"><i class="fa-solid fa-code"></i></div>
+            <div class="accordion-header__text">
+              <div class="accordion-header__title">What technologies and languages do you work with?</div>
+              <div class="accordion-header__meta">Tech stack &amp; tools</div>
+            </div>
+            <div class="accordion-header__chevron"><i class="fa-solid fa-chevron-down"></i></div>
+          </button>
+          <div class="accordion-body">
+            <div class="accordion-divider"></div>
+            <div class="accordion-body__inner">
+              <p class="accordion-body__text">
+                My core stack revolves around <strong>HTML, CSS, and JavaScript</strong> for front-end work, <strong>strapi</strong> for back-end and scripting. I work with frameworks and libraries as needed — whatever fits the project best. I'm always picking up new tools and languages as projects demand them.
+              </p>
+              <div class="accordion-body__tags">
+                <span class="accordion-body__tag">JavaScript</span>
+                <span class="accordion-body__tag">Next.js</span>
+                <span class="accordion-body__tag">HTML/CSS</span>
+         
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- 3 -->
+        <div class="accordion-item" role="listitem">
+          <button class="accordion-header" aria-expanded="false">
+            <div class="accordion-header__icon"><i class="fa-brands fa-github"></i></div>
+            <div class="accordion-header__text">
+              <div class="accordion-header__title">What kind of projects are on your GitHub?</div>
+              <div class="accordion-header__meta">Repositories &amp; contributions</div>
+            </div>
+            <div class="accordion-header__chevron"><i class="fa-solid fa-chevron-down"></i></div>
+          </button>
+          <div class="accordion-body">
+            <div class="accordion-divider"></div>
+            <div class="accordion-body__inner">
+              <p class="accordion-body__text">
+                My GitHub is a mix of <strong>personal projects, experiments, and learning exercises</strong>. I push code regularly because I believe consistency matters more than perfection. You'll find everything from small utility scripts to more complex applications. I also contribute to other repos when I find issues I can help fix. Every project is a snapshot of where I was at that point in my learning journey.
+              </p>
+              <div class="accordion-body__tags">
+                <span class="accordion-body__tag">Personal Projects</span>
+                <span class="accordion-body__tag">Experiments</span>
+                <span class="accordion-body__tag">Contributions</span>
+                <span class="accordion-body__tag">Learning</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- 4 -->
+        <div class="accordion-item" role="listitem">
+          <button class="accordion-header" aria-expanded="false">
+            <div class="accordion-header__icon"><i class="fa-solid fa-bolt"></i></div>
+            <div class="accordion-header__text">
+              <div class="accordion-header__title">How do you approach learning something new?</div>
+              <div class="accordion-header__meta">Process &amp; methodology</div>
+            </div>
+            <div class="accordion-header__chevron"><i class="fa-solid fa-chevron-down"></i></div>
+          </button>
+          <div class="accordion-body">
+            <div class="accordion-divider"></div>
+            <div class="accordion-body__inner">
+              <p class="accordion-body__text">
+                I learn by <strong>building immediately</strong>. I'll read just enough documentation to get started, then jump into writing code. When I hit walls — and I always do — I dig deeper into the specific problem rather than going back to reading. I keep a <strong>digital garden of notes</strong>, revisit old code to refactor it with new knowledge, and try to explain concepts to others because teaching is the fastest way to solidify understanding.
+              </p>
+              <div class="accordion-body__tags">
+                <span class="accordion-body__tag">Learn by Building</span>
+                <span class="accordion-body__tag">Documentation First</span>
+                <span class="accordion-body__tag">Refactor Often</span>
+                <span class="accordion-body__tag">Teach to Learn</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- 5 -->
+        <div class="accordion-item" role="listitem">
+          <button class="accordion-header" aria-expanded="false">
+            <div class="accordion-header__icon"><i class="fa-solid fa-handshake"></i></div>
+            <div class="accordion-header__text">
+              <div class="accordion-header__title">Are you open to collaboration or freelance work?</div>
+              <div class="accordion-header__meta">Working together</div>
+            </div>
+            <div class="accordion-header__chevron"><i class="fa-solid fa-chevron-down"></i></div>
+          </button>
+          <div class="accordion-body">
+            <div class="accordion-divider"></div>
+            <div class="accordion-body__inner">
+              <p class="accordion-body__text">
+                Absolutely. I'm open to <strong>collaborating on interesting  projects</strong>, contributing to teams that value clean code, and taking on freelance work that involves real problem-solving. I'm not interested in cookie-cutter template jobs — I want to work on things that challenge me. If you have something in mind, the best way to reach me is through the contact details in the footer below.
+              </p>
+              <div class="accordion-body__tags">
+                <span class="accordion-body__tag">Open to Collaborate</span>
+                <span class="accordion-body__tag">Freelance</span>
+                
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- 6 -->
+        <div class="accordion-item" role="listitem">
+          <button class="accordion-header" aria-expanded="false">
+            <div class="accordion-header__icon"><i class="fa-solid fa-paper-plane"></i></div>
+            <div class="accordion-header__text">
+              <div class="accordion-header__title">What's the best way to get in touch?</div>
+              <div class="accordion-header__meta">Contact &amp; availability</div>
+            </div>
+            <div class="accordion-header__chevron"><i class="fa-solid fa-chevron-down"></i></div>
+          </button>
+          <div class="accordion-body">
+            <div class="accordion-divider"></div>
+            <div class="accordion-body__inner">
+              <p class="accordion-body__text">
+                The fastest way is through <strong>email</strong> — I check it daily and usually respond within 24 hours. You can also reach out on <strong>GitHub</strong> by opening an issue or discussion on any of my repos. I'm also active on <strong>LinkedIn</strong> if you prefer a more casual first contact. For anything urgent, email is still your best bet.
+              </p>
+              <div class="accordion-body__tags">
+                <span class="accordion-body__tag">Email</span>
+                <span class="accordion-body__tag">GitHub</span>
+                <span class="accordion-body__tag">LinkedIn</span>
+             
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </main>
+
+    <!-- Footer — same glass surface as the accordion -->
+    <footer>
+      <div class="footer-aura"></div>
+      <div class="footer-edge"></div>
+      <div class="footer-inner">
+
+        <div class="footer-grid">
+
+          <div class="footer-brand">
+            <div class="footer-brand__name">
+              <span class="dot"></span>
+              Elyas Forghani
+            </div>
+           <img src="assets/img/1.png" alt="" class="footer-brand__logo ">
+            <div class="footer-socials">
+              <a href="https://github.com/Elyasforghani" target="_blank" rel="noopener" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+              <a href="https://www.linkedin.com/in/alireza-forghani-b4746b263?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+              <a href="mailto:elyasfgidev@gmail.com" aria-label="Email"><i class="fa-solid fa-envelope"></i></a>
+            </div>
+          </div>
+
+          <div class="footer-col">
+            <h3 class="footer-col__heading">Navigation</h3>
+            <ul class="footer-col__links">
+              <li><a href="#top">Home</a></li>
+              <li><a href="https://github.com/Elyasforghani?tab=repositories" target="_blank" rel="noopener">Projects</a></li>
+              <li><a href="https://github.com/Elyasforghani?tab=stars" target="_blank" rel="noopener">Starred</a></li>
+              <li><a href="#top">About</a></li>
+            </ul>
+          </div>
+
+          <div class="footer-col">
+            <h3 class="footer-col__heading">GitHub</h3>
+            <ul class="footer-col__links">
+              <li><a href="https://github.com/Elyasforghani" target="_blank" rel="noopener">Profile</a></li>
+              <li><a href="https://github.com/Elyasforghani?tab=repositories" target="_blank" rel="noopener">Repositories</a></li>
+              <li><a href="https://github.com/Elyasforghani?tab=activity" target="_blank" rel="noopener">Activity</a></li>
+            </ul>
+          </div>
+
+
+        </div>
+
+        <div class="footer-bottom">
+          <p class="footer-bottom__copy">&copy; 2026 <span>Elyas Forghani</span>. Built with passion and dedication.</p>
+          <div class="footer-bottom__links">
+            <a href="https://github.com/Elyasforghani" target="_blank" rel="noopener">GitHub</a>
+            <a href="https://www.instagram.com/elyasforqani.dev?igsh=MTlvenk0eTduZmtxdg==" target="_blank" rel="noopener">Instagram</a>
+            <a href="mailto:elyasfgidev@gmail.com">Email</a>
+            <a href="https://www.linkedin.com/in/alireza-forghani-b4746b263?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank" rel="noopener">LinkedIn</a>
+          </div>
+        </div>
+
+      </div>
+    </footer>
+
+  </div>
+
+  <script src="assets/script/master.js"></script>
+   
+  
+
+</body>
+</html>
